@@ -4,6 +4,7 @@ header {
 
 }
 
+
 footer{
     background-color:darkcyan;
 }
@@ -15,19 +16,31 @@ h4{
     margin-bottom: 20px;
 }
 
-.button {
-    align-items: center;
-}
 .container{
     background-color: black;
     text-align: center;
-    width: max-content;
-    height: max-content;
+
 }
 h3 h5 {
     color:white;
 }
+h3{
+    text-align: start;
+}
+h5{
+    text-align: end;
+}
 .testa{
     background-color: black;
     color: aqua;
+    
+}
+button{
+    background-color: gold;
+}
+h6{
+    text-align: end;
+}
+p{
+    text-align: start;
 }

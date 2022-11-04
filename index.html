@@ -91,56 +91,74 @@
         <h1>WANT AN OFFER?</h1>
         <form>
             <div class="form-row">
-              <div class="col-md-4 mb-3">
-                <label for="validationDefault01">First name</label>
-                <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="validationDefault02">Last name</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
-              </div>
-              <div class="col-md-4 mb-3">
-                <label for="validationDefaultUsername">Username</label>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip01">First name</label>
+                  <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Giorgio" required>
+                  <div class="valid-tooltip">
+                    Looks good!
                   </div>
-                  <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip02">Last name</label>
+                  <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Galli" required>
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltipUsername">Email address</label>
+                  <input type="text" class="form-control" id="validationTooltip02" placeholder="giorgiogalli@gmail.com"  required>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      
+                    </div>
+  
+                    <div class="invalid-tooltip">
+                      Please choose a unique and valid username.
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="form-row">
-              <div class="col-md-6 mb-3">
-                <label for="validationDefault03">City</label>
-                <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationTooltip03">Hours requested</label>
+                  <input type="text" class="form-control" id="validationTooltip03" placeholder="10" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">Type of work</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Backend develompent</option>
+                    <option>Fronted develompent</option>
+                    <option>Project analisys</option>
+                  </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationTooltip05">Discount code</label>
+                  <input type="text" class="form-control" id="validationTooltip05" placeholder="YHDNU32" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 mb-3">
-                <label for="validationDefault04">State</label>
-                <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="validationDefault05">Zip</label>
-                <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                  Agree to terms and conditions
-                </label>
-              </div>
-            </div>
-            <button class="btn btn-primary" type="submit">Submit form</button>
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Vorrei commissionare uno sviluppo backend</textarea>
+                </div>
+              <button class="button" type="submit">Send</button>
+  
+              
           </form>
           <h4><b>Il prezzo finale è di :153.75</b></h4>
-     
+          
     </footer>
+    
     <div class="container">
-        <h3><b>LOCATION</b></h3>
-        <h5>2215 John Daniel Drive</h5>
-        <h5>Calrk,MO 65243</h5>
-        <h6>Copyright©Your Website 2021</h6>
-      </div>
-</body>
+      <h3><b>LOCATION</b></h3>
+      <h5>2215 John Daniel Drive</h5>
+      <h5>Calrk,MO 65243</h5>
+      <h7>Copyright©Your Website 2021</h7>
+    </div>
 </html>
